@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.5.22',
-        'version' => '8.5.22.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '95e62a0aa6a0f00c63744f1a6c08745a456fbb6d',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -39,15 +39,6 @@
             'replaced' => array(
                 0 => '*',
             ),
-        ),
-        'dflydev/dot-access-data' => array(
-            'pretty_version' => 'v3.0.0',
-            'version' => '3.0.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../dflydev/dot-access-data',
-            'aliases' => array(),
-            'reference' => 'e04ff030d24a33edc2421bef305e32919dd78fc3',
-            'dev_requirement' => false,
         ),
         'doctrine/inflector' => array(
             'pretty_version' => '2.0.3',
@@ -404,12 +395,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.5.22',
-            'version' => '8.5.22.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '95e62a0aa6a0f00c63744f1a6c08745a456fbb6d',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -431,21 +422,12 @@
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
-            'pretty_version' => '2.0.0',
-            'version' => '2.0.0.0',
+            'pretty_version' => '1.6.6',
+            'version' => '1.6.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/commonmark',
             'aliases' => array(),
-            'reference' => '167142baf9a6b946f99ad9325b06028606f8238e',
-            'dev_requirement' => false,
-        ),
-        'league/config' => array(
-            'pretty_version' => 'v1.1.0',
-            'version' => '1.1.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../league/config',
-            'aliases' => array(),
-            'reference' => '20d42d88f12a76ff862e17af4f14a5a4bbfd0925',
+            'reference' => 'c4228d11e30d7493c6836d20872f9582d8ba6dcf',
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
@@ -509,24 +491,6 @@
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(),
             'reference' => '8619c299d1e0d4b344e1f98ca07a1ce2cfbf1922',
-            'dev_requirement' => false,
-        ),
-        'nette/schema' => array(
-            'pretty_version' => 'v1.2.1',
-            'version' => '1.2.1.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../nette/schema',
-            'aliases' => array(),
-            'reference' => 'f5ed39fc96358f922cedfd1e516f0dadf5d2be0d',
-            'dev_requirement' => false,
-        ),
-        'nette/utils' => array(
-            'pretty_version' => 'v3.2.2',
-            'version' => '3.2.2.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../nette/utils',
-            'aliases' => array(),
-            'reference' => '967cfc4f9a1acd5f1058d76715a424c53343c20c',
             'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
@@ -760,8 +724,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
